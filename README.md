@@ -7,7 +7,7 @@ Analyze user activity logs to identify patters and anomalies.
 ### Tools used
 Splunk
 SPL
-Tryhackme
+TryHackMe
 ### Key Query 
 |from datamodel:"internal _audit _logs.Audit"
 |stats count by user
