@@ -9,7 +9,7 @@ Splunk
 SPL (Search Processing Language)
 TryHackMe
 ## Key Query
-| from datamodel:"internal_audit_logs.Audit"
+| From datamodel:"internal_audit_logs.Audit"
 | stats count by user
 ## Findings
 The anaylysis showed that the "admin" account had the highest activity count,which may indicate normal administrative behavior or potential overuse that requires further investigation.
