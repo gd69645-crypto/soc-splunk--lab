@@ -16,7 +16,7 @@ TryHackMe
 ## Findings
 The anaylysis showed that the "admin" account had the highest activity count,which may indicate normal administrative behavior or potential overuse that requires further investigation.
 
-|stats count by user
+
 ## Skills Practiced 
 Log Analysis
 Siem investigation
