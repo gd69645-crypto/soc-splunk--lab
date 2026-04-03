@@ -9,7 +9,7 @@ Splunk
 SPL
 Tryhackme
 ### Key Query 
-|from datamodel :"internal _audit _logs.Audit"
+|from datamodel:"internal _audit _logs.Audit"
 |stats count by user
 ## Skills Practiced 
 Log Analysis
