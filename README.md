@@ -6,7 +6,7 @@ User Activity Analysis
 Analyze user activity logs to identify patters and anomalies.
 ### Tools used
 Splunk
-SPL
+SPL (Search Processing Language)
 TryHackMe
 ### Key Query 
 |from datamodel:"internal _audit _logs.Audit"
