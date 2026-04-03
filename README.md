@@ -11,7 +11,7 @@ TryHackMe
 ## Key Query
 ```
  From datamodel:"internal_audit_logs.Audit"
-|stats count by user
+| stats count by user
 ```
 ## Findings
 The anaylysis showed that the "admin" account had the highest activity count,which may indicate normal administrative behavior or potential overuse that requires further investigation. Recommendation: Monitor the admin account for unusual spikes in activity and investigate excessive usage.
